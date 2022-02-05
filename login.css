@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+body
+{
+    background-color: #024877;
+    font-family: sans-serif;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 17px;
+}
+.container{
+    font-size: 20px;
+    background-color: #f2f2f2;
+    padding: 10px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+}
+.log{
+    text-align: center;
+}
+.Submit{
+
+    background-color: #024877;
+    color: white;
+    /* buttoncolor */
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px;
+    border-radius: 15px;
+}
+#Reset{
+    background-color: #024877;
+    color: white;
+    /* buttoncolor */
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px;
+    border-radius: 15px;
+}
+input[id="Submit"]:hover{
+
+    background-color: rgb(11, 41, 179);
+}
+input[type="Reset"]:hover{
+
+    background-color: rgb(11, 41, 179);
+}
